@@ -1,3 +1,4 @@
+const dirName = "<your_ojs_directory_name>";
 const journalName = "<your_journal_name>";
 
 const DCIdentifier = document.querySelector('meta[name="DC.Identifier"]');
@@ -10,7 +11,7 @@ const stageId = 5;
 imgs.forEach(img=>{
     const src = img.getAttribute('src');
     const imageId = syncFetch(`/betterOJS/file_id_finder.php?submissionId=${submissionId}&expected=img&imageName=${src}`);
-    let newUrl = `/ojs2_n4/index.php/${journalName}/article/downloadFullTextAssoc/${submissionId}/${fileId}/${imageId}`;
+    let newUrl = `/${dirName}/index.php/${journalName}/article/downloadFullTextAssoc/${submissionId}/${fileId}/${imageId}`;
     img.src = newUrl;
 });
 
