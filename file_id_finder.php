@@ -1,5 +1,11 @@
 <?php
-
+/*
+	Paramètres à modifier :
+	$db_username
+	$db_password
+	$db_name
+	(éventuellement) $db_host
+*/
 ini_set('display_errors', 1);
 
 /* Setting up the GET parameters */
