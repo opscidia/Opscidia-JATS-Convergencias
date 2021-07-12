@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/* ### general ### */
+
+h1, h2, h3, h4 {
+		font-family: 'Playfair Display', serif;
+		color: #1b1b42;
+}
+
+h2, .h2 {
+    font-size: 36px;
+}
+
+a {
+    color: #1b1b42;
+    text-decoration: none;
+}
+
+h3, .h3, h3.media-heading, .media-heading h3 {
+	font-size: 28px;
+   padding-bottom: 10px;
+	color: #1b1b42;
+}
+
+h3.media-heading a {
+	color: #1b1b42;
+	line-height: 1.3em;
+}
+
+div, p {
+	font-family: 'Krub', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+}
+
+li{
+    text-align: left;
+}
+
+.pkp_block .title {
+	background-color: #1b1b42;
+	color: #ffffff;
+}
+
+a:hover, p a:hover, ul a:hover, ol a:hover, li a:hover, li a:focus, .pkp_navigation_primary > li > a:hover {
+	text-decoration : none;    
+    border-bottom: 5px solid #5cf1bbff;
+	transition:none;
+}
+
+p a, ul a, ol a, li a,.pkp_navigation_primary > li > a {
+	text-decoration : none;    
+	border-bottom: 5px solid transparent;
+	transition: none;
+}
+
+
+body {
+    /*font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-size: 14px;*/
+
+	font-family: 'Krub', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+    line-height: inherit;
+    color: rgba(0,0,0,0.87);
+    background: #fff;
+}
+
+.breadcrumb {
+	background-color: transparent;
+}
+
+/* ### input ### */
+
+input[type="submit"], button {
+    background-color: #1b1b42;
+	color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 20px 40px 20px 40px;
+}
+
+button {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 20px;
+	cursor: inherit;
+	border: none;
+}
+
+button.sidebar {
+	width: 300px;
+   padding: 20px 20px 20px 20px;
+}
+
+.pkp_block.block_make_submission a {
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn-group > .btn, .btn-primary, .pkp_block.block_make_submission a, a.btn-default{
+   background-color: #1b1b42;
+	color: #ffffff;
+   font-size: 1.2em;
+	border: none;
+}
+
+button:hover, .btn-group > .btn:hover, .btn-primary:hover, .pkp_block.block_make_submission a:hover, a.btn-default:hover{
+    background-color: #e1dfe7;
+    border-color: #e1dfe7;
+    color: #242654ff;
+    border:none;
+}
+
+a.buttonlink, a.galley-link {,  , 
+	color: #ffffff;
+}
+
+a.buttonlink:hover, a.galley-link:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: #242654ff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+ }
+
+input[type="submit"]:hover, a.buttonlink:hover, a.buttonlink:focus {
+   	text-decoration:none;
+	border-bottom: none;
+    color: #1b1b42;
+}
+
+a.buttonlink{
+	color: #ffffff;
+}
+
+input[type="submit"]:hover, a.buttonlink:hover, a.buttonlink:focus {
+   	text-decoration:none;
+	border-bottom: none;
+    color: #242654ff;
+}
+
+input.sib-default-btn{
+	border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 3px;
+    padding: 9px 26px;
+    background-color: #edebf3;
+    border-color: #edebf3;
+    color: #686868;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+input[type="email"]{
+    max-width: 300px;
+}
+
+/* ### Header ### */
+
+.site-name a{
+	border-bottom: none;
+}
+
+.navbar-brand-logo img {
+    max-height: 120px;
+    max-width: none;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #1b1b42;
+    padding-bottom: 30px;
+}
+
+.navbar-header{
+	height: 130px;
+}	
+
+.navbar-default .nav > li > a {
+	font-family: 'Krub', sans-serif;
+	font-weight:400;
+	font-size: 26px;
+	text-transform: uppercase;
+	/*color: rgba(69,69,69,0.8);*/
+	color: #fff;
+}
+
+.navbar-default .nav > li > a:hover {
+	/*color: #000;*/
+	color: #fff;
+	}
+    
+#navigationUser > li > a{
+	font-size: 16px;
+}
+
+@media (min-width: 768px){
+	.navbar-nav > li {
+   	 padding-top: 30px;
+}
+
+/* ### Content ### */
+
+.pkp_structure_page{
+	background-color: #eef3f6;
+}
+
+.media-body div{
+	padding-bottom: 20px;
+}
+
+.media-left img {
+	 padding: 3px;
+    background-color: #fff;
+}
+
+.pkp_structure_content {
+    padding-bottom: 30px;
+}
+				
+/* ### Footer ### */
+
+footer[role="contentinfo"]{
+	background-color: rgba(0,0,0,0.85);
+   padding: 2em;
+   margin-top: 0em;
+}
+
+footer[role="contentinfo"] p {
+	    color: #cdcdcd;
+    text-decoration: none;
+       font-size: 16px;
+}
+
+footer[role="contentinfo"] ul li {
+    color: #cdcdcd;
+	font-family: 'Krub', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+}
+
+.footer a {
+    color: #cdcdcd;
+}
+
+.footer img {
+    background-color: grey;
+    padding: 20px;
+}
+
+.footer_opscidia img{
+    background-color: transparent;
+    padding: 0px;
+}
+
+img.picto{
+    max-width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.social a:hover{
+	border:none;
+}
+
+@media (min-width: 1025px) {
+
+	.container-fluid {
+	    width: 1170px;
+	}
+}
