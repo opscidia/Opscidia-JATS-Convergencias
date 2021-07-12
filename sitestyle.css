@@ -299,6 +299,10 @@ img.picto{
 	border:none;
 }
 
+.pkp_screen_reader{
+	display: none;
+}
+
 @media (min-width: 1025px) {
 
 	.container-fluid {
