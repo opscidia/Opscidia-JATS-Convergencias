@@ -29,6 +29,10 @@ h3.media-heading {
     color: #6c6c6c
 }
 
+.pkp_screen_reader{
+	display: none;
+}
+
 /* .article-sidebar.col-md-4 {
     width: auto !important
 }
