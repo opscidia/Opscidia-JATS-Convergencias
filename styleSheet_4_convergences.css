@@ -126,7 +126,7 @@ h3 {
     color: var(--cvg-orange)
 }
 
-.media-heading a {
+h3.media-heading a, .media-heading a {
     color: var(--cvg-orange);
     line-height: 1.3em
 }
