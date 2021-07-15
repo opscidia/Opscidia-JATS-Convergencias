@@ -109,19 +109,21 @@ h4 {
 
 .h2,
 h2 {
-    font-size: 22px
+    font-size: 28px;
 }
 
 a,
 p a {
     color: #555;
-    text-decoration: underline
+    text-decoration: underline;
+    word-wrap: break-word;
 }
 
 .h3,
 .media-heading,
 .media-heading h3,
 h3 {
+    font-size: 22px;
     padding-bottom: 10px;
     color: var(--cvg-orange)
 }
@@ -129,6 +131,10 @@ h3 {
 h3.media-heading a, .media-heading a {
     color: var(--cvg-orange);
     line-height: 1.3em
+}
+
+h4 {
+    font-size: 16px;
 }
 
 div,
@@ -330,6 +336,51 @@ input[type=email] {
 
 #navigationUser>li>a {
     font-size: 14px
+}
+
+span.label {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    display: block;
+}
+
+span.title {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    display: block;
+}
+
+span.notes{
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    display: block;
+    text-align: center;
+}
+
+figure {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.figure img {
+    max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding-top: 30px;
+}
+
+.versions{
+    display: none;
 }
 
 @media (min-width:768px) {
