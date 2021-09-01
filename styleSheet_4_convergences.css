@@ -7,6 +7,14 @@
     --standard-shadow-transition-duration: 0.2s
 }
 
+#jatsParserFullText table, th, td {
+  border: 1px solid black;
+}
+
+#jatsParserFullText table {
+  margin-bottom: 40px;
+}
+
 #jatsParserFullText img {
     max-width: 85%
 }
@@ -392,6 +400,10 @@ section{
 
 .versions{
     display: none;
+}
+
+.cover-image img{
+    max-height: 300px;
 }
 
 @media (min-width:768px) {
