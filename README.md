@@ -22,3 +22,7 @@ Replace the following value accordingly :<br>
 <hr>
 Finally, in the custom header plugin settings, type :
   <code><script src="/betterOJS/images_fixer.js" defer></script></code>
+
+## Bootstrap theme for Convergencias
+
+See  https://github.com/opscidia/bootstrap3/commits/v3_2_0-2_opscidia
