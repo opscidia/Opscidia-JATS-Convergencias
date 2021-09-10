@@ -7,6 +7,10 @@
     --standard-shadow-transition-duration: 0.2s
 }
 
+.article-more-details .panel-body {
+	background: #F5F5F5;
+}
+
 #jatsParserFullText table, th, td {
   border: 1px solid black;
 }
